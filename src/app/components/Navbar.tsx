@@ -11,12 +11,12 @@ const Navbar: React.FC = () => {
   return (
     <nav className="backdrop-blur bg-transparent border-b border-wvsuwhite fixed top-0 w-full z-50">
       <div className="max-w-5xl flex flex-wrap items-center justify-between mx-auto p-4 px-10">
-        <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
         <img 
           src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/WVSU_Main_Campus_Logo.svg/1200px-WVSU_Main_Campus_Logo.svg.png" 
           className="h-12" 
           alt="Flowbite Logo" />
-          <span className="self-center text-lg font-semibold text-wvsuwhite whitespace-nowrap dark:text-white hidden sm:block">
+          <span className="self-center text-lg font-semibold text-wvsuwhite whitespace-nowrap dark:text-white hidden sm:block hover:text-wvsuyellow">
             WVSU University Recognition 2024
           </span>
         </a>
@@ -38,16 +38,16 @@ const Navbar: React.FC = () => {
             {/* Add your navigation links here */}
             <li className='flex gap-5 flex-col md:flex-row transition duration-300'>
               
-              <a href="#" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline">
+              <a href="/" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline hover:text-wvsuyellow">
                 Home
               </a>
-              <a href="#" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline ">
+              <a href="#" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline hover:text-wvsuyellow">
                 About
               </a>
-              <a href="#" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline ">
+              <a href="/program" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline hover:text-wvsuyellow">
                 Program
               </a>
-              <a href="#" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline ">
+              <a href="#" className="block py-2 px-3 text-wvsuwhite bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 dark:text-white md:dark:text-white hover:underline hover:text-wvsuyellow">
                 Student Search
               </a>
             </li>
